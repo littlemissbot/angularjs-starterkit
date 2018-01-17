@@ -4,20 +4,18 @@
   "description": "Angular JS v1 set up",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "gulp dev --env development",
+    "build": "npm install && gulp prod --env production"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/connect2samita/angularjs-setup.git"
   },
   "keywords": [
-    "angular",
-    "js",
-    "angular",
-    "angular",
-    "1",
-    "set",
-    "up"
+    "AngularJS",
+    "angular1.6",
+    "angular-bootstrap",
+    "gulp"
   ],
   "author": "Samita Mondal",
   "license": "GPL-3.0",
@@ -26,6 +24,32 @@
   },
   "homepage": "https://github.com/connect2samita/angularjs-setup#readme",
   "dependencies": {
-    "angular": "^1.6.6"
+    "angular": "^1.6.8",
+    "angular-jwt": "^0.1.9",
+    "angular-sanitize": "^1.6.8",
+    "angular-ui-router": "^0.4.2",
+    "angularjs-slider": "^6.4.3",
+    "angular-drag-and-drop-lists": "^2.1.0",
+    "bootstrap": "^3.3.7",
+    "jquery": "^3.1.1",
+    "ng-bootstrap-datetime-picker": "^2.5.5",
+    "ng-file-upload": "^12.2.13",
+    "ng-infinite-scroll": "^1.3.0",
+    "ngstorage": "^0.3.11",
+    "ui-select": "^0.19.8"
+  },
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-cache": "^0.4.5",
+    "gulp-clean": "^0.3.2",
+    "gulp-clean-css": "^3.9.2",
+    "gulp-concat": "^2.6.1",
+    "gulp-imagemin": "^3.1.1",
+    "gulp-sass": "^3.1.0",
+    "gulp-uglify": "^2.0.1",
+    "gulp-useref": "^3.1.4",
+    "browser-sync": "^2.23.2",
+    "run-sequence": "^1.2.2",
+    "yargs": "^6.6.0"
   }
 }
