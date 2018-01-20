@@ -9,7 +9,7 @@
  * Main module of the application.
  */
 
-var app = angular.module('angularApp', ['ui.router', 'rzModule', 'ngSanitize', 'angular-jwt']);
+var app = angular.module('angularApp', ['ui.router', 'ngStorage', 'ngSanitize', 'angular-jwt']);
 
 app.config(['$urlRouterProvider', '$stateProvider', '$locationProvider', '$httpProvider', '$qProvider',
   function ($urlRouterProvider, $stateProvider, $locationProvider, $httpProvider, $qProvider) {

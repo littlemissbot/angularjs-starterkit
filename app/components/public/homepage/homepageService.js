@@ -1,5 +1,5 @@
 (function (angularApp) {
-  app.factory('homepageService', ['$q', 'apiService', 'APIPATH',
+  angularApp.factory('homepageService', ['$q', 'apiService', 'APIPATH',
     function ($q, apiService, APIPATH) {
 
       return {}

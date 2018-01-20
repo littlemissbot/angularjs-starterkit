@@ -1,5 +1,5 @@
 (function (angularApp) {
-  app.factory('userDataService',['$localStorage', '$sessionStorage',
+  angularApp.factory('userDataService',['$localStorage', '$sessionStorage',
     function($localStorage, $sessionStorage) {
      $localStorage.userData = $localStorage.userData || {};
      $sessionStorage.sessionData = $sessionStorage.sessionData || {};
