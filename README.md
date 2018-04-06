@@ -1,2 +1,2 @@
-# angularjs-setup
-Angular JS setup
+# Angular JS
+Angular JS quick set up.
